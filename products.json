@@ -1,32 +1,32 @@
 [
     {
         "name": "Ethereal French Silk Lace",
-        "price": 45000,
-        "cat": "laces"
+        "price": 40000,
+        "cat": "🧵 laces"
     },
     {
         "name": "Corded Royal Guipure Lace",
         "price": 38500,
-        "cat": "laces"
+        "cat": "🧵 laces"
     },
     {
         "name": "Super 160s Italian Cashmere",
         "price": 22000,
-        "cat": "suitings"
+        "cat": "👔 suittings"
     },
     {
         "name": "English Houndstooth Wool Tweed",
         "price": 18500,
-        "cat": "suitings"
+        "cat": "👔 suittings"
     },
     {
-        "name": "natives",
+        "name": "Handwoven Metallic Silk Aso-Oke",
         "price": 65000,
-        "cat": "natives"
+        "cat": "👑 natives"
     },
     {
         "name": "Premium Brocade Atiku Cotton",
         "price": 12000,
-        "cat": "natives"
+        "cat": "👑 natives"
     }
 ]
