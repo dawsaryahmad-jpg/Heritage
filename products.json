@@ -47,10 +47,10 @@
         "cat": "services",
         "image": "images/sow-senator-wear.webp"
     } ,
-    {
-    "name": "Luxury Silk Abaya",
+     {
+    "name": "Abaya Silk Luxury",
     "price": 35000,
     "cat": "👑 natives",
-    "image": "images/luxury-silk-abaya.webp"
-}
+    "image": "https://picsum.photos"
+  }
 ]
