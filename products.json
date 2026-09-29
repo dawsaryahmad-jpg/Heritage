@@ -2,31 +2,49 @@
     {
         "name": "Ethereal French Silk Lace",
         "price": 40000,
-        "cat": "🧵 laces"
+        "cat": "🧵 laces",
+        "image": "images/ethereal-french-silk-lace.webp"
     },
     {
         "name": "Corded Royal Guipure Lace",
         "price": 38500,
-        "cat": "🧵 laces"
-    },
-    {
-        "name": "Super 160s Italian Cashmere",
-        "price": 22000,
-        "cat": "👔 suittings"
+        "cat": "🧵 laces",
+        "image": "images/corded-royal-guipure-lace.webp"
     },
     {
         "name": "English Houndstooth Wool Tweed",
         "price": 18500,
-        "cat": "👔 suittings"
+        "cat": "👔 suittings",
+        "image": "images/english-houndstooth-wool-tweed.webp"
     },
     {
         "name": "Handwoven Metallic Silk Aso-Oke",
         "price": 65000,
-        "cat": "👑 natives"
+        "cat": "👑 natives",
+        "image": "images/handwoven-metallic-silk-aso-oke.webp"
+    },
+    {
+        "name": "Super 160s Italian Cashmere",
+        "price": 22000,
+        "cat": "👔 suittings",
+        "image": "images/super-160s-italian-cashmere.webp"
     },
     {
         "name": "Premium Brocade Atiku Cotton",
         "price": 12000,
-        "cat": "👑 natives"
+        "cat": "👑 natives",
+        "image": "images/premium-brocade-atiku-cotton.webp"
+    },
+    {
+        "name": "sow gown",
+        "price": 35000,
+        "cat": "services",
+        "image": "images/sow-gown.webp"
+    },
+    {
+        "name": "sow senator wear",
+        "price": 60000,
+        "cat": "services",
+        "image": "images/sow-senator-wear.webp"
     }
 ]
