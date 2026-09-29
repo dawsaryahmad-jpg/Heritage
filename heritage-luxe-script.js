@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                     </div>
                     <div class="price-row">
                         <span class="price">${CURR_SYMBOL}${parseFloat(item.price).toLocaleString()}</span>
-                        <button class="add-to-cart-btn" data-type="${item.cat}">	ext{${buttonText}}</button>
+                        <button class="add-to-cart-btn" data-type="${item.cat}"> ${buttonText}</button>
                     </div>
                 </div>
             `;
