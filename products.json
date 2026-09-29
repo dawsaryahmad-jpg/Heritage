@@ -40,6 +40,11 @@
         "price": 80000,
         "cat": "👑 natives",
         "image": "images/silk-abaya.webp"
+    },
+    {
+        "name": "Facial wash",
+        "price": 20000,
+        "cat": "services",
+        "image": "images/silk-abaya.webp"
     }
-
 ]
