@@ -34,5 +34,12 @@
         "price": 40000,
         "cat": "🧵 laces",
         "image": "images/ethereal-french-silk-lace.webp"
+    },
+    {
+        "name": "Silk Abaya",
+        "price": 80000,
+        "cat": "👑 natives",
+        "image": "images/silk-abaya.webp"
     }
+
 ]
