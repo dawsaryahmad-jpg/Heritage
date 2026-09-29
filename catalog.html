@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extended Catalog Showroom | Heritage Luxe</title>
+    <title>Extended Catalog Showroom | Heritage-Luxe</title>
     
     <!-- 🟢 CONFIGURABLE FAVICON ASSET SLOTS -->
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
@@ -11,208 +11,49 @@
     
     <link rel="stylesheet" href="style.css">
     <style>
-        .tab-btn.active { background: #4F1C82 !important; color: #FFF !important; }
-        .checkout-btn { background: #4F1C82 !important; }
-        .floating-cart-icon { background: #4F1C82 !important; }
+        .tab-btn.active { background: #C60156 !important; color: #FFF !important; }
+        .checkout-btn { background: #C60156 !important; }
+        .floating-cart-icon { background: #C60156 !important; }
     </style>
 </head>
 <body>
     <header>
-        <div class="logo"><a href="index.html" style="text-decoration:none; color:inherit;">Heritage Luxe</a></div>
+        <div class="logo"><a href="index.html" style="text-decoration:none; color:inherit;">Heritage-Luxe</a></div>
         <div class="search-wrapper"><input type="text" id="catalog-search" placeholder="Search catalog items instantly..."></div>
     </header>
     <div class="tab-container">
-        <button class="tab-btn active" data-category="all" style="background:#4F1C82; color:#FFF;">✨ View All Collections</button>
-        <button class="tab-btn" data-category="🧵 laces">🧵 LACES</button>
-        <button class="tab-btn" data-category="👔 suittings">👔 SUITTINGS</button>
+        <button class="tab-btn active" data-category="all" style="background:#C60156; color:#FFF;">✨ View All Collections</button>
         <button class="tab-btn" data-category="👑 natives">👑 NATIVES</button>
+        <button class="tab-btn" data-category="👔 suittings">👔 SUITTINGS</button>
+        <button class="tab-btn" data-category="🧵 laces">🧵 LACES</button>
         <button class="tab-btn" data-category="services">⚙️ SERVICES</button>
     </div>
     <main class="menu-container">
         <div id="search-fallback" class="search-fallback-card" style="display: none;">
             <h3>Product Model Not Located</h3>
             <p>No catalog elements matched that query parameter block. Try looking into another active collection group.</p>
-            <button id="reset-catalog-btn" class="cta-btn" style="background:#4F1C82; margin-top:10px;">Reset System View</button>
+            <button id="reset-catalog-btn" class="cta-btn" style="background:#C60156; margin-top:10px;">Reset System View</button>
         </div>
         
-        <section class="menu-category" data-section-category="🧵 laces">
-            <h2 class="category-title" style="border-left:4px solid #4F1C82;">🧵 LACES Showcase Matrix</h2>
-            <div class="menu-grid">
-                <div class="food-card" data-name="Ethereal French Silk Lace" data-price="40000" data-category="🧵 laces">
-                    <div class="image-wrapper"><img src="images/ethereal-french-silk-lace.webp" alt="Ethereal French Silk Lace" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-                    <div class="food-info">
-                        <h3>Ethereal French Silk Lace</h3>
-                        <p class="description">Premium asset optimized for instant deployment booking logs and manifests.</p>
-                        <div class="quantity-control-wrapper" style="">
-                            <button class="step-btn minus-btn" style="background:#4F1C82;">&minus;</button>
-                            <input type="number" class="quantity-input" value="1.0" step="0.5" min="0.5">
-                            <span class="unit-label">yards / units</span>
-                            <button class="step-btn plus-btn" style="background:#4F1C82;">&plus;</button>
-                        </div>
-                        <div class="price-row">
-                            <span class="price">₦40,000</span>
-                            <button class="add-to-cart-btn" data-type="🧵 laces" style="background:#4F1C82;">Add to Basket</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="food-card" data-name="Corded Royal Guipure Lace" data-price="38500" data-category="🧵 laces">
-                    <div class="image-wrapper"><img src="images/corded-royal-guipure-lace.webp" alt="Corded Royal Guipure Lace" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-                    <div class="food-info">
-                        <h3>Corded Royal Guipure Lace</h3>
-                        <p class="description">Premium asset optimized for instant deployment booking logs and manifests.</p>
-                        <div class="quantity-control-wrapper" style="">
-                            <button class="step-btn minus-btn" style="background:#4F1C82;">&minus;</button>
-                            <input type="number" class="quantity-input" value="1.0" step="0.5" min="0.5">
-                            <span class="unit-label">yards / units</span>
-                            <button class="step-btn plus-btn" style="background:#4F1C82;">&plus;</button>
-                        </div>
-                        <div class="price-row">
-                            <span class="price">₦38,500</span>
-                            <button class="add-to-cart-btn" data-type="🧵 laces" style="background:#4F1C82;">Add to Basket</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <section class="menu-category" data-section-category="👑 natives">
+            <h2 class="category-title" style="border-left:4px solid #C60156;">👑 NATIVES Showcase Matrix</h2>
+            <div class="menu-grid" id="grid-👑 natives"></div>
         </section>
         <section class="menu-category" data-section-category="👔 suittings">
-            <h2 class="category-title" style="border-left:4px solid #4F1C82;">👔 SUITTINGS Showcase Matrix</h2>
-            <div class="menu-grid">
-                <div class="food-card" data-name="English Houndstooth Wool Tweed" data-price="18500" data-category="👔 suittings">
-                    <div class="image-wrapper"><img src="images/english-houndstooth-wool-tweed.webp" alt="English Houndstooth Wool Tweed" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-                    <div class="food-info">
-                        <h3>English Houndstooth Wool Tweed</h3>
-                        <p class="description">Premium asset optimized for instant deployment booking logs and manifests.</p>
-                        <div class="quantity-control-wrapper" style="">
-                            <button class="step-btn minus-btn" style="background:#4F1C82;">&minus;</button>
-                            <input type="number" class="quantity-input" value="1.0" step="0.5" min="0.5">
-                            <span class="unit-label">yards / units</span>
-                            <button class="step-btn plus-btn" style="background:#4F1C82;">&plus;</button>
-                        </div>
-                        <div class="price-row">
-                            <span class="price">₦18,500</span>
-                            <button class="add-to-cart-btn" data-type="👔 suittings" style="background:#4F1C82;">Add to Basket</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="food-card" data-name="Super 160s Italian Cashmere" data-price="22000" data-category="👔 suittings">
-                    <div class="image-wrapper"><img src="images/super-160s-italian-cashmere.webp" alt="Super 160s Italian Cashmere" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-                    <div class="food-info">
-                        <h3>Super 160s Italian Cashmere</h3>
-                        <p class="description">Premium asset optimized for instant deployment booking logs and manifests.</p>
-                        <div class="quantity-control-wrapper" style="">
-                            <button class="step-btn minus-btn" style="background:#4F1C82;">&minus;</button>
-                            <input type="number" class="quantity-input" value="1.0" step="0.5" min="0.5">
-                            <span class="unit-label">yards / units</span>
-                            <button class="step-btn plus-btn" style="background:#4F1C82;">&plus;</button>
-                        </div>
-                        <div class="price-row">
-                            <span class="price">₦22,000</span>
-                            <button class="add-to-cart-btn" data-type="👔 suittings" style="background:#4F1C82;">Add to Basket</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h2 class="category-title" style="border-left:4px solid #C60156;">👔 SUITTINGS Showcase Matrix</h2>
+            <div class="menu-grid" id="grid-👔 suittings"></div>
         </section>
-        <section class="menu-category" data-section-category="👑 natives">
-            <h2 class="category-title" style="border-left:4px solid #4F1C82;">👑 NATIVES Showcase Matrix</h2>
-            <div class="menu-grid">
-                <div class="food-card" data-name="Abaya Silk Luxury" data-price="35000" data-category="services">
-    <div class="image-wrapper">
-        <img src="https://picsum.photos" alt="Abaya Silk Luxury" style="width:100%; height:100%; object-fit:cover; display:block;">
-    </div>
-    <div class="food-info">
-        <h3>Abaya Silk Luxury</h3>
-        <p class="description">Premium asset optimized for instant deployment booking logs and manifests.</p>
-        <div class="quantity-control-wrapper" style="display:none !important;">
-            <button class="step-btn minus-btn">&minus;</button>
-            <input type="number" class="quantity-input" value="1" step="1" min="1">
-            <span class="unit-label">items</span>
-            <button class="step-btn plus-btn">&plus;</button>
-        </div>
-        <div class="price-row">
-            <span class="price">₦35,000</span>
-            <button class="add-to-cart-btn" data-type="services">Book Service</button>
-        </div>
-    </div>
-</div>
-                <div class="food-card" data-name="Handwoven Metallic Silk Aso-Oke" data-price="65000" data-category="👑 natives">
-                    <div class="image-wrapper"><img src="images/handwoven-metallic-silk-aso-oke.webp" alt="Handwoven Metallic Silk Aso-Oke" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-                    <div class="food-info">
-                        <h3>Handwoven Metallic Silk Aso-Oke</h3>
-                        <p class="description">Premium asset optimized for instant deployment booking logs and manifests.</p>
-                        <div class="quantity-control-wrapper" style="">
-                            <button class="step-btn minus-btn" style="background:#4F1C82;">&minus;</button>
-                            <input type="number" class="quantity-input" value="1.0" step="0.5" min="0.5">
-                            <span class="unit-label">yards / units</span>
-                            <button class="step-btn plus-btn" style="background:#4F1C82;">&plus;</button>
-                        </div>
-                        <div class="price-row">
-                            <span class="price">₦65,000</span>
-                            <button class="add-to-cart-btn" data-type="👑 natives" style="background:#4F1C82;">Add to Basket</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="food-card" data-name="Premium Brocade Atiku Cotton" data-price="12000" data-category="👑 natives">
-                    <div class="image-wrapper"><img src="images/premium-brocade-atiku-cotton.webp" alt="Premium Brocade Atiku Cotton" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-                    <div class="food-info">
-                        <h3>Premium Brocade Atiku Cotton</h3>
-                        <p class="description">Premium asset optimized for instant deployment booking logs and manifests.</p>
-                        <div class="quantity-control-wrapper" style="">
-                            <button class="step-btn minus-btn" style="background:#4F1C82;">&minus;</button>
-                            <input type="number" class="quantity-input" value="1.0" step="0.5" min="0.5">
-                            <span class="unit-label">yards / units</span>
-                            <button class="step-btn plus-btn" style="background:#4F1C82;">&plus;</button>
-                        </div>
-                        <div class="price-row">
-                            <span class="price">₦12,000</span>
-                            <button class="add-to-cart-btn" data-type="👑 natives" style="background:#4F1C82;">Add to Basket</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <section class="menu-category" data-section-category="🧵 laces">
+            <h2 class="category-title" style="border-left:4px solid #C60156;">🧵 LACES Showcase Matrix</h2>
+            <div class="menu-grid" id="grid-🧵 laces"></div>
         </section>
         <section class="menu-category" data-section-category="services">
-            <h2 class="category-title" style="border-left:4px solid #4F1C82;">Professional Services Matrix</h2>
-            <div class="menu-grid">
-                <div class="food-card" data-name="sow gown" data-price="35000" data-category="services">
-                    <div class="image-wrapper"><img src="images/sow-gown.webp" alt="sow gown" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-                    <div class="food-info">
-                        <h3>sow gown</h3>
-                        <p class="description">Premium asset optimized for instant deployment booking logs and manifests.</p>
-                        <div class="quantity-control-wrapper" style="display:none !important;">
-                            <button class="step-btn minus-btn" style="background:#4F1C82;">&minus;</button>
-                            <input type="number" class="quantity-input" value="1.0" step="0.5" min="0.5">
-                            <span class="unit-label">yards / units</span>
-                            <button class="step-btn plus-btn" style="background:#4F1C82;">&plus;</button>
-                        </div>
-                        <div class="price-row">
-                            <span class="price">₦35,000</span>
-                            <button class="add-to-cart-btn" data-type="services" style="background:#4F1C82;">Book Service</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="food-card" data-name="sow senator wear" data-price="60000" data-category="services">
-                    <div class="image-wrapper"><img src="images/sow-senator-wear.webp" alt="sow senator wear" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-                    <div class="food-info">
-                        <h3>sow senator wear</h3>
-                        <p class="description">Premium asset optimized for instant deployment booking logs and manifests.</p>
-                        <div class="quantity-control-wrapper" style="display:none !important;">
-                            <button class="step-btn minus-btn" style="background:#4F1C82;">&minus;</button>
-                            <input type="number" class="quantity-input" value="1.0" step="0.5" min="0.5">
-                            <span class="unit-label">yards / units</span>
-                            <button class="step-btn plus-btn" style="background:#4F1C82;">&plus;</button>
-                        </div>
-                        <div class="price-row">
-                            <span class="price">₦60,000</span>
-                            <button class="add-to-cart-btn" data-type="services" style="background:#4F1C82;">Book Service</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h2 class="category-title" style="border-left:4px solid #C60156;">Professional Services Matrix</h2>
+            <div class="menu-grid" id="grid-services"></div>
         </section>
         
         <section style="margin-top:60px; padding:40px; background:#F4F7F5; border-radius:12px; border:1px solid #D1E0DB;">
-            <h3 style="color:#4F1C82; font-weight:800; margin-bottom:12px;">🌾 Pro-Tier Fractional Sourcing Operations Checklist</h3>
+            <h3 style="color:#C60156; font-weight:800; margin-bottom:12px;">🌾 Pro-Tier Fractional Sourcing Operations Checklist</h3>
             <p style="font-size:0.9rem; color:#555; margin-bottom:25px; line-height:1.5;">Our ordering framework natively respects micro-fraction aggregates. Fabric and textile operations can utilize the capsule increment controllers on any card item to configure fine float decimals (e.g. 1.5, 3.5, 10.5 yards or bundles) with automatic real-time price scaling models before checkout transmission pathways launch.</p>
             <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; font-size:0.85rem; color:#444;">
                 <div>✔️ <strong>Frictionless Ordering:</strong> Zero login credentials required to bundle your item checklist.</div>

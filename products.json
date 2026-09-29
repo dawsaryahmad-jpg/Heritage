@@ -1,21 +1,9 @@
 [
     {
-        "name": "Ethereal French Silk Lace",
-        "price": 40000,
-        "cat": "🧵 laces",
-        "image": "images/ethereal-french-silk-lace.webp"
-    },
-    {
-        "name": "Corded Royal Guipure Lace",
-        "price": 38500,
-        "cat": "🧵 laces",
-        "image": "images/corded-royal-guipure-lace.webp"
-    },
-    {
-        "name": "English Houndstooth Wool Tweed",
-        "price": 18500,
-        "cat": "👔 suittings",
-        "image": "images/english-houndstooth-wool-tweed.webp"
+        "name": "Premium Brocade Atiku Cotton",
+        "price": 12000,
+        "cat": "👑 natives",
+        "image": "images/premium-brocade-atiku-cotton.webp"
     },
     {
         "name": "Handwoven Metallic Silk Aso-Oke",
@@ -24,33 +12,39 @@
         "image": "images/handwoven-metallic-silk-aso-oke.webp"
     },
     {
+        "name": "English Houndstooth Wool Tweed",
+        "price": 18500,
+        "cat": "👔 suittings",
+        "image": "images/english-houndstooth-wool-tweed.webp"
+    },
+    {
         "name": "Super 160s Italian Cashmere",
         "price": 22000,
         "cat": "👔 suittings",
         "image": "images/super-160s-italian-cashmere.webp"
     },
     {
-        "name": "Premium Brocade Atiku Cotton",
-        "price": 12000,
-        "cat": "👑 natives",
-        "image": "images/premium-brocade-atiku-cotton.webp"
+        "name": "Corded Royal Guipure Lace",
+        "price": 38500,
+        "cat": "🧵 laces",
+        "image": "images/corded-royal-guipure-lace.webp"
     },
     {
-        "name": "sow gown",
-        "price": 35000,
-        "cat": "services",
-        "image": "images/sow-gown.webp"
+        "name": "Ethereal French Silk Lace",
+        "price": 40000,
+        "cat": "🧵 laces",
+        "image": "images/ethereal-french-silk-lace.webp"
     },
     {
-        "name": "sow senator wear",
-        "price": 60000,
+        "name": "Sow Senator wear",
+        "price": 75000,
         "cat": "services",
         "image": "images/sow-senator-wear.webp"
-    } ,
-     {
-    "name": "Abaya Silk Luxury",
-    "price": 35000,
-    "cat": "👑 natives",
-    "image": "https://picsum.photos"
-  }
+    },
+    {
+        "name": "Sow wedding gown",
+        "price": 125000,
+        "cat": "services",
+        "image": "images/sow-wedding-gown.webp"
+    }
 ]
