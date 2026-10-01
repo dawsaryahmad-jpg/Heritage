@@ -46,5 +46,11 @@
         "price": 20000,
         "cat": "services",
         "image": "images/facial-wash.webp"
+    },
+    {
+        "name": "Cooperate suite",
+        "price": 80000,
+        "cat": "👔 suittings",
+        "image": "images/silk-abaya.webp"
     }
 ]
